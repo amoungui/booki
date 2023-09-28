@@ -276,13 +276,7 @@ a {
 }
 
 /****** Footer ***********/
-footer{
-    background-color: var(--grey-tint2-color);
-    display: flex;
-    flex-direction: row;
-    margin-top: 5rem;
-    gap: 100px
-}
+
 
 /* Le code ci-dessous correspond à la version responsive uniquement */
 
