@@ -277,6 +277,45 @@ a {
 
 /****** Footer ***********/
 
+footer {
+    flex-shrink: 0;
+    margin-top: 1.875rem;
+    width: 100%;
+    background: var(--grey-tint2-color);
+    color: #333;
+}
+
+.footer-content {
+    margin: 0 auto;
+    display: flex;
+    align-items: flex-start;
+    font-size: 16px;
+    padding: 10px 0 100px;
+}
+
+.block {
+    width: 25%;
+    margin: 0 30px;
+}
+
+.footer-about h3,
+.footer-hebergements h3,
+.footer-assistance h3 {
+    font-size: 22px;
+}
+
+.list-about,
+.list-hebergements,
+.list-assistance {
+    list-style-type: none;
+}
+
+.list-about,
+.list-hebergements,
+.list-assistance li {
+    padding: 2px 0;
+}
+
 
 /* Le code ci-dessous correspond à la version responsive uniquement */
 
