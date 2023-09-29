@@ -18,33 +18,31 @@
     <div class="main-container">
         <header>
             <div class="header-nav">
-                <img src="images/logo/Booki.svg" alt="Logo Booki">
-                <nav>
-                    <a href="index.html">Hébergements</a>
-                    <a href="#">Activité</a>
+                <a href="#"><img src="images/logo/Booki.svg" alt="Logo Booki"></a>
+                <nav class="menu-nav">
+                    <div class="wraper">
+                        <a href="index.html" class="btn-link btn-hebergement">Hébergements</a>
+                        <a href="#" class="btn-link btn-activite">Activité</a>                        
+                    </div>
                 </nav>
             </div>
             <div class="header-menu">
-                <h2>Trouvez votre Hébergement pour des vacances de rêve</h2>
-                <p>En plein centre-ville ou pleine nature</p>
-                <div class="header-search-form">
-                    <a><i class="fa-xs fa-solid fa-location-dot" aria-hidden="true"></i></a>
-                    <form>
-                        <input />
-                        <submit>Recherche</submit>
-                    </form>
-                </div>
+                <p><strong>Trouvez votre Hébergement pour des vacances de rêve </strong></br></br>
+                En plein centre-ville ou pleine nature</p>
+                <form class="header-search-form">
+                    <button class="btn btn-location"><i class="fa-xs fa-solid fa-location-dot"></i></button>
+                    <input type="text" name="" placeholder="Marseille, France" class="input-search">
+                    <button class="btn btn-search"><i>Recherche</i></button>
+                </form>
                 <div class="header-options">
-                    <h4>Filtres</h4>
-                    <ul>
-                        <li><a><i class="fa-xs fa-solid fa-money-bill-1-wave" aria-hidden="true"></i> Economique</a></li>
-                        <li><a><i class="fa-xs fa-solid fa-person" aria-hidden="true"></i> Familial</a></li>
-                        <li><a><i class="fa-xs fa-solid fa-heart" aria-hidden="true"></i> Romantique</a></li>
-                        <li><a><i class="fa-xs fa-solid fa-fire" aria-hidden="true"></i> Nos pépites</a></li>
-                    </ul>
+                    <span class="filter-option"> <strong>Filtres</strong></span>
+                    <a class="btn-option btn-economique"><i class="fa-xs fa-solid fa-money-bill-1-wave" aria-hidden="true"></i> Economique</a>
+                    <a class="btn-option btn-familial"><i class="fa-xs fa-solid fa-person" aria-hidden="true"></i> Familial</a>
+                    <a class="btn-option btn-romantique"><i class="fa-xs fa-solid fa-heart" aria-hidden="true"></i> Romantique</a>
+                    <a class="btn-option btn-pepite"><i class="fa-xs fa-solid fa-fire" aria-hidden="true"></i> Nos pépites</a>
                 </div>
                 <div class="header-plus-info">
-                    <img src=""/>
+                    <img src="images/ellipse.svg" alt="info icon" />
                     <p> Plus de 500 logements sont disponibles dans cette ville</p>
                 </div>
             </div>            
@@ -263,28 +261,36 @@
                         <article class="card">
                             <img src="./images/activites/reno-laithienne.jpg"
                                 alt="Image du vieux-port">
-                            <h5 class="card-title">vieux-port</h5>
+                            <div class="card-txt">
+                                <h3 class="card-title">Hôtel du port</h3>
+                            </div>
                         </article>
                     </a>
                     <a href="#">
                         <article class="card">
                             <img src="./images/activites/paul-hermann.jpg"
                                 alt="Image de la Fort de Pomègues">
-                            <h5 class="card-title">Fort de Pomègues</h5>
+                            <div class="card-txt">
+                                <h3 class="card-title">Fort de Pomègues</h3>
+                            </div>                            
                         </article>
                     </a>
                     <a href="#">
                         <article class="card">
                             <img src="./images/activites/kilyan-sockalingum.jpg"
                                 alt="Image du parc national des Calanques">
-                            <h5 class="card-title">Parc national des Calanques</h5>
+                            <div class="card-txt">
+                                <h3 class="card-title">Parc national des Calanques</h3>
+                            </div> 
                         </article>
                     </a>
                     <a href="#">
                         <article class="card">
                             <img src="./images/activites/florian-wehde.jpg"
                                 alt="Image de Notre-Dame-de-la-Garde">
-                            <h5 class="card-title">Notre-Dame-de-la-Garde</h5>
+                            <div class="card-txt">
+                                <h3 class="card-title">Notre-Dame-de-la-Garde</h3>
+                            </div>                             
                         </article>
                     </a>                                        
                 </section>
@@ -294,25 +300,19 @@
             <div class="footer-content">
                 <div class="block footer-about">
                     <h3>A propos</h3>
-                    <ul class="list-about">
-                        <li><a href="#">Fonctionnement du site</a></li>
-                        <li><a href="#">Conditions générales</a></li>
-                        <li><a href="#">Données et confidentialité</a></li>
-                    </ul>
+                    <a href="#">Fonctionnement du site</a>
+                    <a href="#">Conditions générales</a>
+                    <a href="#">Données et confidentialité</a>
                 </div>
                 <div class="block footer-hebergements">
                     <h3>Nos hébergements</h3>
-                    <ul class="list-hebergements">
-                        <li><a href="#">Charte qualité</a></li>
-                        <li><a href="#">Proposer votre hôtel</a></li>
-                    </ul>
+                    <a href="#">Charte qualité</a>
+                    <a href="#">Proposer votre hôtel</a>
                 </div>
                 <div class="block footer-assistance">
                     <h3>Assistance</h3>
-                    <ul class="list-assistance">
-                        <li><a href="#">Centre d'aide</a></li>
-                        <li><a href="#">Nous contacter</a></li>
-                    </ul>                
+                    <a href="#">Centre d'aide</a>
+                    <a href="#">Nous contacter</a>  
                 </div>
             </div>
         </footer>
