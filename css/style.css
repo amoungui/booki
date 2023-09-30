@@ -160,8 +160,8 @@ header .header-options {
     border-radius: 15px, 0px, 0px, 15px;
     border: 1px;
     background: #F2F2F2;
-    border: 1px solid #F2F2F2
-    color:background: #000000;
+    border: 1px solid #F2F2F2;
+    color: #000000;
     border-bottom-left-radius: 20px;
     border-top-left-radius: 20px;
 }
@@ -192,8 +192,8 @@ header .header-options .btn-option{
 }
 
 .header-options .filter-option{
-    width: 54px
-    height: 21px
+    width: 54px;
+    height: 21px;
     font-family: Raleway;
     font-size: 18px;
     font-weight: bold;
@@ -351,10 +351,10 @@ header .header-options .btn-option{
 .activites {
     width: 100%;
     margin-top: 33px;
-    max-width: Fill (1,340px)
-    height: Hug (559.02px)
-    padding: 30px
-    gap: 30px
+    max-width: Fill (1,340px);
+    height: Hug (559.02px);
+    padding: 30px;
+    gap: 30px;
 
 }
 
@@ -373,9 +373,9 @@ header .header-options .btn-option{
 .activites-cards .card {
     display: flex;
     flex-direction: column;
-    width: Fill (297.5px)
-    height: Fixed (439px)
-    border-radius: 20px    
+    width: Fill (297.5px);
+    height: Fixed (439px);
+    border-radius: 20px;    
 }
 
 .activites-cards img {
