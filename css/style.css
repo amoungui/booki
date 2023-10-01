@@ -396,14 +396,9 @@ header .header-options .btn-option{
     gap: 10px;    
 }
 
-.activites-cards .card-txt .card-title {
+.activites-cards .card-title {
     width: 259.5px;
     height: 19px;
-}
-
-.activites-cards .card-title {
-    width: Fill (297.5px);
-    height: Hug (59px);
     padding: 20px, 19px, 20px, 19px;
     border-radius: 0px, 0px, 20px, 20px;
     gap: 10px;
@@ -441,7 +436,6 @@ footer {
 /****** End Footer ***********/
 
 /* Le code ci-dessous correspond à la version responsive uniquement */
-
 /****** Media queries ***********/
 /* Medium devices (tablets, less/equal than 1024px) */
 @media (max-width: 1024px) {
@@ -571,6 +565,106 @@ footer {
         height: Hug (163px);
         gap: 30px;        
     }    
+}
+
+
+/* Desktop devices (between 1024px and 1440px)*/
+@media only screen and (min-width: 1024px) and (max-width: 1440px) {
+    /***** hebergements *****/
+    .hebergements {
+        width: 65%;
+    }
+    
+    .hebergements-cards .hebergements-cards-block{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        gap: 10px;
+        align-items: stretch;
+    }
+    
+    .hebergements-title {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    
+    .hebergements-cards .card {
+        display: flex;
+        flex-direction: column;
+        margin-top: 33px;
+        width: 230.33px;
+        height: 207.25px;
+        padding: 0px, 0px, 15px, 0px;
+        border-radius: 20px;
+        gap: 4px;                
+    }
+    
+    .hebergements-cards img {
+        width: 230.33px;
+        height: 124px;
+        border-radius: 20px, 20px, 0px, 0px;
+        border: 5px;       
+    }
+    /***** End hebergements *****/    
+
+    /***** Activites *****/
+    .activites {
+        width: 100%;
+        margin-top: 33px;
+        max-width: 1340px;
+        height: 559.02px;        
+        padding: 30px;
+        gap: 30px;
+    
+    }
+    
+    .activites-title {
+        margin: 5px;
+        padding-bottom: 30px;
+    }
+    
+    .activites-cards{
+        display: flex;
+        flex-direction: row;
+        width: Fill (1,280px);
+        height: Hug (439px);
+        gap: 30px;
+    }
+    
+    .activites-cards .card {
+        display: flex;
+        flex-direction: column;
+        width: 257.5px;
+        height: 419px;        
+        border-radius: 20px;    
+    }
+    
+    .activites-cards img {
+        width: 257.5px;
+        height: 340px;
+        border-radius: 20px, 20px, 0px, 0px;
+        line-height: 0.07407407;    
+        border-top-left-radius: 20px;
+        border-top-right-radius: 20px;
+    }
+    
+    .activites-cards .card .card-txt {
+        width: Fill (297.5px);
+        height: Hug (59px);
+        padding: 20px, 19px, 20px, 19px;
+        border-radius: 0px, 0px, 20px, 20px;
+        gap: 10px;    
+    }
+    
+    .activites-cards .card-title {
+        width: 259.5px;
+        height: 19px;
+        padding: 20px, 19px, 20px, 19px;
+        border-radius: 0px, 0px, 20px, 20px;
+        gap: 10px;
+    }
+    /***** End activites *****/        
 }
 
 /* Small devices (phones, less than 768px) */
