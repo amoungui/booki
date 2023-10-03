@@ -135,8 +135,6 @@ header .header-options {
     display: flex;
     flex-direction: row;
     font-size: 40px;
-    box-sizing: border-box;
-    margin-bottom: 30px;
 }
 
 .header-search-form .btn-search
@@ -450,18 +448,20 @@ footer {
     /**  headers  **/
     .header-nav img{
         width: 161.09px;
-        height: Hug (79px);
+        height: 79px;
         padding: 30px, 50px, 30px, 50px;
         gap: 10px;        
     }
 
     .header-menu p{
-        width: Fill (924px);
-        height: Hug (53px);
+        width: 924px;
+        height: 53px;
         gap: 8px;
     }
+    
     .header-plus-info{
-        display: inline-flex;
+        display: flex;
+        flex-direction: row;
         width: Fill (924px);
         height: Hug (24px);
         gap: 10px;        
@@ -528,7 +528,7 @@ footer {
     }
     /******** End Populaire ***********/
 
-    /******** End Activité ***********/
+    /******** Activité ***********/
     .activites{
         width: 100%;
         display: flex;
