@@ -208,7 +208,8 @@ header .header-options .btn-option{
 }
 
 .header-menu .header-plus-info{
-    display: inline-flex;
+    display: flex;
+    flex-direction: row;
     gap: 5px;
 }
 
@@ -219,6 +220,11 @@ header .header-options .btn-option{
     line-height: 19px;
     letter-spacing: 0em;
     text-align: left;
+}
+
+.header-menu .header-plus-info img{
+    size: 14px;
+    margin-top: 11px;
 }
 /******* End header ************/
 
@@ -442,7 +448,7 @@ footer {
 
     /**  headers  **/
     .header-nav img{
-        width: Hug (161.09px);
+        width: 161.09px;
         height: Hug (79px);
         padding: 30px, 50px, 30px, 50px;
         gap: 10px;        
@@ -669,21 +675,68 @@ footer {
 
 /* Small devices (phones, less than 768px) */
 @media (max-width: 767.98px) {
-    /* ... */
+    /* main container */
     .main-container {
-        width: 100%;
+        width: 375px;
+        top: 188px;        
     }
 
+    /****  hebergements and populaires *****/
+    .hebergements{
+        width: auto;
+    }
+    .hebergements-and-populaires{
+        display: flex;
+        flex-direction: column-reverse;
+        gap: 35px;
+    }
+
+    /****** Hebergements mobile ***********/
     .hebergements-cards .hebergements-cards-block{
         display: flex;
         flex-direction: column;
         justify-content: center;
     }
 
-    .populaires{
-        width: 100%;
+    .hebergements-and-populaires .hebergements {
+        background-color: var(--white-color);
+    }
+    .hebergements-and-populaires {
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    .hebergements-cards .hebergements-cards-block{
         display: flex;
         flex-direction: column;
+        justify-content: space-between;
+        gap: 10px;
+    }
+    
+    .hebergements-title {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    
+    .hebergements-cards .card {
+        display: flex;
+        flex-direction: column;
+        margin-top: 33px;
+        width: 250.33px;
+        height: 207.25px;
+        padding: 0px, 0px, 15px, 0px;
+        gap: 4px;        
+    }
+
+    /**** populaires *****/
+    .populaires{
+        display: flex;
+        flex-direction: column;
+        background-color: var(--grey-tint2-color);
+        width: auto;
+        padding: 30px, 20px, 30px, 20px;
+        gap: 15px;        
     }
 
     .populaires .populaires-cards{
@@ -691,19 +744,21 @@ footer {
         flex-direction: column;
     }
 
-    .activites{
-        display: flex;
-        flex-direction: column;
-        
-    }
-
     .activites .activites-cards{
         display: flex;
-        flex-direction: column;        
+        flex-direction: column;
+        width: 375px;
+        padding: 30px;
+        gap: 30px;                
     }
 
+
+    footer{
+
+    }
     footer .footer-content{
         display: flex;
         flex-direction: column;
     }
+
 }
