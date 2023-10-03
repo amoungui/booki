@@ -280,7 +280,7 @@ header .header-options .btn-option{
 
 .hebergements-cards .card-content {
     width: 100%;
-    padding-left: 15px;
+    padding-left: 5px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -293,7 +293,7 @@ header .header-options .btn-option{
 }
 
 .hebergements-cards .card-subtitle {
-    margin: 0;
+    margin: 0px;
 }
 
 .hebergements-cards .card-rating {
@@ -345,7 +345,7 @@ header .header-options .btn-option{
 }
 
 .populaires-cards .card-subtitle {
-    margin: 0;
+    margin: 10px;
 }
 
 .populaires-cards .card-rating {
