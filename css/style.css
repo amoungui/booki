@@ -79,6 +79,8 @@ header .header-nav{
     flex-direction: row;
     align-items: stretch; 
     justify-content: space-between;
+    margin-top: 0.188rem;
+    margin-bottom: 1rem;
 }
 
 .header-nav .menu-nav
@@ -95,9 +97,12 @@ header .header-nav{
     display: flex;
     flex-direction: row;
     gap: 60px;
-
+    padding-top: 1.35rem;
 }
 
+.menu-nav .wraper a{
+    padding-top: 0.938rem;
+}
 
 .menu-nav .btn-hebergement
 {
