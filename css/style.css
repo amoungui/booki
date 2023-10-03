@@ -493,6 +493,7 @@ footer {
     /** End Headers **/
     /***** hebergements-and-populaires ******/
     .hebergements-and-populaires {
+        display: flex;
         flex-direction: column;
     }
 
@@ -528,11 +529,13 @@ footer {
     }
 
     .populaires-cards .card-title {
-        font-size: 0.875 /*14px;*/
+        font-size: 0.875rem; /*14px;*/
+        margin-bottom: 20px;
     }
 
     .populaires-cards .card-subtitle {
         font-size: 0.813rem; /*13px;*/
+        margin: 0px;
     }
     /******** End Populaire ***********/
 
@@ -567,9 +570,8 @@ footer {
         width: 9.719rem; /*155.5px;*/
         height: 1.188rem; /*19px;*/ 
         font-family: Raleway;
-        font-size: 0.75rem; /*12px;*/
+        font-size: 0.875rem; /*14px;*/
         font-weight: 700;
-        padding: 0.625rem; /*10px;*/
         text-align: left;
     }
 
