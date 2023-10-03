@@ -761,10 +761,6 @@ footer {
         gap: 30px;                
     }
 
-
-    footer{
-
-    }
     footer .footer-content{
         display: flex;
         flex-direction: column;
