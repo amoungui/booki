@@ -227,8 +227,9 @@ header .header-options .btn-option{
 }
 
 .header-menu .header-plus-info img{
-    size: 14px;
-    margin-top: 11px;
+    width: 24px;
+    height: 24px;
+    padding-top: 13px;
 }
 /******* End header ************/
 
@@ -314,7 +315,7 @@ header .header-options .btn-option{
 
 /****** Populaires large Desktop ***********/
 .populaires {
-    width: 35%;
+    width: 33%;
 }
 
 .populaires-title {
@@ -350,7 +351,7 @@ header .header-options .btn-option{
 }
 
 .populaires-cards .card-subtitle {
-    margin: 10px;
+    margin: 0px;
 }
 
 .populaires-cards .card-rating {
@@ -362,21 +363,19 @@ header .header-options .btn-option{
 .activites {
     width: 100%;
     margin-top: 33px;
-    max-width: Fill (1,340px);
-    height: Hug (559.02px);
+    max-width: 1240px;
     padding: 30px;
-    gap: 30px;
-
 }
 
 .activites-title {
     margin: 10px;
+    padding-bottom: 30px;
 }
 
 .activites-cards{
     display: flex;
     flex-direction: row;
-    width: Fill (1,280px);
+    width: 1280px;
     height: Hug (439px);
     gap: 30px;
 }
@@ -384,13 +383,13 @@ header .header-options .btn-option{
 .activites-cards .card {
     display: flex;
     flex-direction: column;
-    width: Fill (297.5px);
+    width: 287.5px;
     height: Fixed (439px);
     border-radius: 20px;    
 }
 
 .activites-cards img {
-    width: 297.5px;
+    width: 287.5px;
     height: 380px;
     border-radius: 20px, 20px, 0px, 0px;
     line-height: 0.07407407;    
@@ -490,10 +489,9 @@ footer {
         margin-bottom: 1.875rem; /*30px;*/      
     }
 
-    .header-plus-info img {
+    .header-menu .header-plus-info img {
         width: 1.5rem; /*24px;*/
-        height: 1.5rem; /*24px;*/
-        border: 0.063rem; /*1px;*/             
+        height: 1.5rem; /*24px;*/           
     }
     /** End Headers **/
     /***** hebergements-and-populaires ******/
