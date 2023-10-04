@@ -73,8 +73,7 @@ a {
 }
 /****** Header Large Desktop *******/
 header .header-nav{
-    width: 1,340px;
-    height: 79px;
+    height: 4.938rem; /** 79px; **/
     display: flex;
     flex-direction: row;
     align-items: stretch; 
@@ -85,18 +84,18 @@ header .header-nav{
 
 .header-nav .menu-nav
 {
-    width: Hug (344px);
+    width: Hug (321.5rem);/*(44px);*/
     height: Hug (35px);
-    left: 1096px;
+    left: 68.5rem; /**1096px;**/
     padding: 0px, 50px, 0px, 50px;
-    gap: 68px;
+    gap: 4.25rem; /*68px;*/
 }
 
 .menu-nav .wraper
 {
     display: flex;
     flex-direction: row;
-    gap: 60px;
+    gap: 3.75rem; /**60px; **/
     padding-top: 1.35rem;
 }
 
@@ -107,7 +106,7 @@ header .header-nav{
 .menu-nav .btn-hebergement
 {
     border-top: 2px solid #0065FC;
-    width: 113px;
+    width: 7.063rem; /**113px;**/
     height: 2px;
     color: #0065FC;
 
@@ -117,7 +116,6 @@ header .header-menu {
     display: flex;
     flex-direction: column;
     width: 1,340px;
-    height: Hug (281px);
     gap: 10px;
 }
 
@@ -140,6 +138,7 @@ header .header-options {
     display: flex;
     flex-direction: row;
     font-size: 40px;
+    margin-bottom: 20px;
 }
 
 .header-search-form .btn-search
