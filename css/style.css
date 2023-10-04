@@ -687,6 +687,12 @@ footer {
 /* Small devices (phones, less than 768px) */
 @media (max-width: 767.98px) {
     /* main container */
-
-
+    .main-container {
+        width: 100%; 
+        height: auto; 
+        margin: auto;
+        background-color: #000000; /** to delimited scream **/
+        color: #FFFFFF;
+    }
+    
 }
