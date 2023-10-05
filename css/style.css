@@ -106,8 +106,6 @@ header .header-nav{
 .menu-nav .btn-hebergement
 {
     border-top: 2px solid #0065FC;
-    width: 7.063rem; /**113px;**/
-    height: 2px;
     color: #0065FC;
 
 }
@@ -692,22 +690,48 @@ footer {
         width: 100%; 
         display: flex;
         flex-direction: column;
+        max-width: 47.999rem;
+        padding: 0 0 0 0;
+        box-sizing: border-box;
         background-color: var(--grey-tint2-color); /** to delimited scream **/
         color: #FFFFFF;
     }
 
-    .main-container {
-        width: 100%;
-        max-width: 47.999rem;
-        padding: 0 0 0 0;
-        box-sizing: border-box;
+    header {
+        background-color: var(--white-color);
+        color: var(--black-color);
     }
 
     header .header-nav{
         width: auto;
         display: flex;
         flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top: 30px;
         margin-bottom: 80px; /** see if top move after **/
+    }
+
+    .header-nav .menu-nav{
+        justify-content: center;
+        width: 100%;
+    }
+
+    .wraper .btn-link{
+        width: 100%;
+        text-align: center;
+    }
+
+    .menu-nav .wraper {
+        gap: 0.625rem; /* 15px */
+    }
+
+    .menu-nav .btn-hebergement {
+        border-top: 0px solid #FFFFFF;
+        border-bottom: 2px solid #0065FC;
+        padding-bottom: 15px;
+        color: #0065FC;
+
     }
 
     header .header-menu {
