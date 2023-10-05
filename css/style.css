@@ -848,6 +848,18 @@ footer {
         flex-direction: column;        
     }  
     
+    .activites-cards .card{
+        width: 300px;
+        border-radius: 20px;
+    }
+
+    .activites-cards .card img{
+        width: 300px;
+        height: 141px;
+        border-radius: 20px, 20px, 0px, 0px;        
+    }    
+    /** end activités **/
+
     footer .footer-content{
         display: flex;
         flex-direction: column;
