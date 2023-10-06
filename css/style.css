@@ -18,9 +18,7 @@
     --light-blue-color: #DEEBFF;
     --grey-tint2-color: #D9D9D9;
     --stroke-card-color: #FFFFFF;
-
     /* Text configuration */    
-
 }
 
 .fa-solid {
@@ -724,6 +722,24 @@ footer {
     .header-nav .menu-nav{
         justify-content: center;
         width: 100%;
+    }
+
+    .header-options .btn-group{
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(160px, 1fr));        
+    }
+
+    .header-options .btn-option{
+        width: 132.5px;
+        height: 30px;
+        padding: auto;
+        padding: 4px, 19px, 4px, 19px;
+        border: 2px;
+        gap: 30px;   
+        margin-bottom: 15px;  
+        text-align: justify;
+        align-items:  center;   
+
     }
 
     .wraper .btn-link{
