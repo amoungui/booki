@@ -367,7 +367,7 @@ header .header-options .btn-option {
 /****** Actrivités large Desktop ***********/
 .activites {
     width: 100%;
-    margin-top: 33px;
+    /*margin-top: 0px;*/
     max-width: 1240px;
     padding: 30px;
 }
