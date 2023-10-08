@@ -388,14 +388,14 @@ header .header-options .btn-option {
 .activites-cards .card {
     display: flex;
     flex-direction: column;
-    width: 287.5px;
+    width: 295px;
     padding: 0rem;
     height: Fixed (439px);
     border-radius: 20px;
 }
 
 .activites-cards img {
-    width: 287.5px;
+    width: 295px;
     height: 380px;
     border-radius: 20px, 20px, 0px, 0px;
     line-height: 0.07407407;
