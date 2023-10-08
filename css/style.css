@@ -389,6 +389,7 @@ header .header-options .btn-option {
     display: flex;
     flex-direction: column;
     width: 287.5px;
+    padding: 0rem;
     height: Fixed (439px);
     border-radius: 20px;
 }
@@ -583,22 +584,23 @@ footer {
     }
 
     .activites-cards .card {
-        width: 10.844rem;
+        width: 11.25rem;
         /*173.5px;*/
         border-radius: 1.25rem;
+        padding: 0rem;
         /*20px;*/
         box-shadow: 0px 3px 15px 0px #0000001A;
     }
 
     .activites-cards .card img {
-        width: 10.844rem;
+        width: 11.25rem;
         /*173.5px;*/
         height: 12.5rem;
         /*200px;*/
         border-radius: 20px, 20px, 0px, 0px;
     }
 
-    .card .card-txt .card-title {
+    .activites-cards .card-title {
         width: 9.719rem;
         /*155.5px;*/
         height: 1.188rem;
@@ -608,6 +610,8 @@ footer {
         /*14px;*/
         font-weight: 700;
         text-align: left;
+        margin-left: 10px;
+        margin-bottom: 20px;
     }
 
     /***** End Activites ******/
@@ -680,7 +684,7 @@ footer {
     .activites-cards {
         display: flex;
         flex-direction: row;
-        width: Fill (1, 280px);
+        width: Fill (1,280px);
         height: Hug (439px);
         gap: 30px;
     }
@@ -690,32 +694,22 @@ footer {
         flex-direction: column;
         width: 257.5px;
         height: 419px;
+        padding: 0rem;
         border-radius: 20px;
     }
 
     .activites-cards img {
         width: 257.5px;
         height: 340px;
-        border-radius: 20px, 20px, 0px, 0px;
         line-height: 0.07407407;
         border-top-left-radius: 20px;
         border-top-right-radius: 20px;
     }
 
-    .activites-cards .card .card-txt {
-        width: Fill (297.5px);
-        height: Hug (59px);
-        padding: 20px, 19px, 20px, 19px;
-        border-radius: 0px, 0px, 20px, 20px;
-        gap: 10px;
-    }
-
     .activites-cards .card-title {
-        width: 259.5px;
-        height: 19px;
-        padding: 20px, 19px, 20px, 19px;
-        border-radius: 0px, 0px, 20px, 20px;
-        gap: 10px;
+        margin-top: 10px;
+        margin-bottom: 20px;
+        margin-left: 10px;
     }
 
     /***** End activites *****/
@@ -932,6 +926,7 @@ footer {
     .populaires-cards .card-title {
         margin-top: 10px;
         margin-bottom: 20px;
+        margin-left: 20px;
     }
 
     /** end populaire section **/
@@ -965,9 +960,11 @@ footer {
         border-radius: 20px, 20px, 0px, 0px;
     }
 
-    activites-cards .card .card-txt {
-        border: 2px solid #000000;
-    }
+    .activites-cards .card-title {
+        margin-top: 10px;
+        margin-bottom: 20px;
+        margin-left: 20px;
+    }    
 
     /** end activités **/
 
