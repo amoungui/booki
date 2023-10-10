@@ -32,7 +32,7 @@ body {
 
 .main-container {
     width: 100%;
-    max-width: 90rem;
+    /*max-width: 90rem;*/
     padding: 0 3.125rem;
     box-sizing: border-box;
 }
@@ -368,7 +368,7 @@ header .header-options .btn-option {
 .activites {
     width: 100%;
     /*margin-top: 0px;*/
-    max-width: 1240px;
+    /*max-width: 1240px;*/
     padding: 30px;
 }
 
@@ -680,7 +680,7 @@ footer {
         width: 100%;
         margin-top: 2.063rem;
         /*33px;*/
-        max-width: 83.75rem;
+        /*max-width: 83.75rem;*/
         /*1340px;*/
         height: 34.939rem;
         /*559.02px;*/
@@ -739,7 +739,7 @@ footer {
         width: 100%;
         display: flex;
         flex-direction: column;
-        max-width: 47.999rem;
+        /*max-width: 47.999rem;*/
         margin: 0 auto;
         /* Centrer horizontalement */
         padding: 0;
