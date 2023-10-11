@@ -367,7 +367,7 @@ header .header-options .btn-option {
 /** activités section**/
 /****** Actrivités large Desktop ***********/
 .activites {
-    width: 97%;
+    width: 100%;
     /*margin-top: 0px;*/
     /*max-width: 1240px;*/
     padding: 1.875rem; /*30px;*/
@@ -388,14 +388,14 @@ header .header-options .btn-option {
 .activites-cards .card {
     display: flex;
     flex-direction: column;
-    width: 17.188rem; /*275px;*/
+    width: 18.77rem; /*275px;*/
     padding: 0rem;
     height: Fixed (27.438rem); /*Fixed (439px);*/
     border-radius: 1.25rem; /*20px;*/
 }
 
 .activites-cards img {
-    width: 17.188rem;
+    width: 18.77rem;
     height: 23.75rem; /*380px;*/
     border-radius: 1.25rem, 1.25rem, 0px, 0px;
     line-height: 0.07407407;
@@ -451,6 +451,73 @@ footer {
 
 /****** End Footer ***********/
 /** End of Desktop Design **/
+
+/* Desktop devices (between 1024px and 1440px)*/
+@media only screen and (min-width: 1024px) and (max-width: 1440px) {
+    /***** hebergements *****/
+
+    /** activités section**/
+    /****** Actrivités large Desktop ***********/
+    .activites {
+        width: 97%;
+        /*margin-top: 0px;*/
+        /*max-width: 1240px;*/
+        padding: 1.875rem; /*30px;*/
+    }
+
+    .activites-title {
+        margin: 0.625rem; /*10px;*/
+        padding-bottom: 1.875rem; /*30px;*/
+    }
+
+    .activites-cards {
+        display: flex;
+        flex-direction: row;
+        height: Hug (27.438rem); /*Hug (439px);*/
+        gap: 1.875rem; /*30px;*/
+    }
+
+    .activites-cards .card {
+        display: flex;
+        flex-direction: column;
+        width: 17.188rem; /*275px;*/
+        padding: 0rem;
+        height: Fixed (27.438rem); /*Fixed (439px);*/
+        border-radius: 1.25rem; /*20px;*/
+    }
+
+    .activites-cards img {
+        width: 17.188rem;
+        height: 23.75rem; /*380px;*/
+        border-radius: 1.25rem, 1.25rem, 0px, 0px;
+        line-height: 0.07407407;
+        border-top-left-radius: 1.25rem; /*20px;*/
+        border-top-right-radius:  1.25rem; /*20px;*/
+    }
+
+    .activites-cards .card .card-txt {
+        width: Fill (297.5px);
+        height: Hug (59px);
+        padding: 1.25rem, 1.188rem, 1.25rem, 1.188rem; /*20px, 19px, 20px, 19px;*/
+        border-radius: 0px, 0px, 1.25rem, 1.25rem; /*0px, 0px, 20px, 20px;*/
+        gap: 0.625rem; /*10px;*/
+    }
+
+    .activites-cards .card-title {
+        width: 16.219rem; /*259.5px;*/
+        height: 1.188rem; /*19px;*/
+        padding: 1.25rem, 1.188rem, 1.25rem, 1.188rem; /*20px, 19px, 20px, 19px;*/
+        border-radius: 0px, 0px, 1.25rem, 1.25rem; /*0px, 0px, 20px, 20px;*/
+        gap: 0.625rem; /*10px;*/
+    }
+
+    .activites-cards .affiche-plus a {
+        margin-top: 1rem;
+        font-weight: bold;
+    }
+
+    /****** End Actrivités ***********/    
+}
 
 /* Le code ci-dessous correspond à la version responsive uniquement */
 
