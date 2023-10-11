@@ -73,6 +73,12 @@ a {
     color: var(--main-bg-color)
 }
 
+.btn-location .fa-location-dot{
+    color: #000; 
+    font-size: 1rem; /*16px;*/ 
+    margin: auto; 
+    padding-top: 0.5rem; /*8px*/
+}
 /****** Header Large Desktop *******/
 header .header-nav {
     height: 4.938rem;
