@@ -26,6 +26,7 @@
 }
 
 body {
+    margin: 0;
     display: flex;
     justify-content: center;
 }
@@ -47,6 +48,10 @@ a {
 .section-title {
     margin: 0;
     font-size: 1.375rem; /* 22px / 16px */
+}
+
+.btn-group > .btn-option {
+    padding: 20px;
 }
 
 .card {
@@ -266,9 +271,8 @@ header .header-options .btn-option {
 .hebergements-cards .hebergements-cards-block {
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
-    gap: 0.625rem; /* 10px; */
-    align-items: stretch;
+    gap: 20px;/*0.625rem; /* 10px; */
+    /*align-items: stretch;*/
 }
 
 .hebergements-title {
@@ -538,6 +542,16 @@ footer {
         width: 100%;
     }
 
+    .hebergements-cards .card {
+        display: flex;
+        flex-direction: column;
+        margin-top: 2.06rem; /* 33px / 16px */
+        width: 16.375rem; /* 250.33px / 16px */
+        height: 12.95rem; /* 239.2px / 16px */
+        padding: 0px, 0px, 0.94rem, 0px; /* 15px / 16px */
+        gap: 0.25rem; /* 4px / 16px */
+    }
+    
     .populaires {
         width: 100%;
         margin-top: 50px;
@@ -579,7 +593,7 @@ footer {
     }
     
     .activites-cards .card {
-        width: 11.45rem;
+        width: 12.45rem;
         /*173.5px;*/
         border-radius: 1.25rem;
         padding: 0rem;
@@ -588,7 +602,7 @@ footer {
     }
 
     .activites-cards .card img {
-        width: 11.45rem;
+        width: 12.45rem;
         /*173.5px;*/
         height: 12.5rem;
         /*200px;*/
@@ -655,25 +669,33 @@ footer {
         width: 100%;
     }
 
-    .header-options .btn-group {
-        display: grid;
-        grid-template-columns: repeat(auto-fill, minmax(10rem, 1fr));
-    }
-
-    .header-options .btn-option {
-        width: 8.3rem;
-        height: 1.9rem;
-        padding: auto;
-        padding: 0.3rem, 1.2rem, 0.3rem, 1.2rem;
-        border: 0.1rem;
-        gap: 1.9rem;
-        margin-bottom: 0.9rem;
-        text-align: justify;
+    .header-menu{
+        display: flex;
+        justify-content: center;
         align-items: center;
     }
 
+    .header-options .btn-group {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr); /* Créer deux colonnes de largeur égale */
+        grid-template-rows: repeat(2, auto); /* Créer deux lignes de hauteur adaptée au contenu */
+        grid-auto-flow: column; /* Remplir les cellules du grid par colonne */
+    }
+
+    .header-options .btn-option {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 8.3rem;
+        height: 2rem;
+        border: 0.1rem;
+        gap: 1.9rem;
+        margin-bottom: 0.9rem;
+        margin-right: 0.3rem;
+    }
+
     .header-search-form .input-search {
-        width: 16.9rem;
+        width: 15rem;
         height: 2.8rem;
         border-top-right-radius: 0.9rem;
         border-bottom-right-radius: 0.9rem;
@@ -682,7 +704,8 @@ footer {
 
     .header-search-form .btn-search {
         position: absolute;
-        top: 20.4rem;
+        top: 19.85rem;
+        
     }
 
     .wraper .btn-link {
