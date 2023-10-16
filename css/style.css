@@ -323,7 +323,7 @@ header .header-options .btn-option {
 
 .hebergements-cards .affiche-plus {
     margin-top: 1.5rem;
-    margin-bottom: 1.5rem;
+    /*margin-bottom: 1.5rem;*/
     font-weight: bold;
 }
 
@@ -536,10 +536,12 @@ footer {
 @media (max-width: 1024px) {
     .hebergements-and-populaires {
         flex-direction: column;
+        background: var(--white-color);
     }
 
     .hebergements {
         width: 100%;
+        margin-bottom: 30px;
     }
 
     .hebergements-cards .card {
@@ -554,7 +556,7 @@ footer {
     
     .populaires {
         width: 100%;
-        margin-top: 30px;
+        margin-top: 0px;
     }
 
     .populaires-cards {
