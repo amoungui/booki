@@ -469,7 +469,7 @@ footer {
     /** activités section**/
     /****** Actrivités large Desktop ***********/
     .activites {
-        width: 97%;
+        width: auto;
         /*margin-top: 0px;*/
         /*max-width: 1240px;*/
         padding: 1.875rem; /*30px;*/
@@ -490,14 +490,14 @@ footer {
     .activites-cards .card {
         display: flex;
         flex-direction: column;
-        width: 17.188rem; /*275px;*/
+        width: 16.88rem; /*275px;*/
         padding: 0rem;
         height: Fixed (27.438rem); /*Fixed (439px);*/
         border-radius: 1.25rem; /*20px;*/
     }
 
     .activites-cards img {
-        width: 17.188rem;
+        width: 16.88rem;
         height: 23.75rem; /*380px;*/
         border-radius: 1.25rem, 1.25rem, 0px, 0px;
         line-height: 0.07407407;
@@ -579,7 +579,7 @@ footer {
 
     /******** Activité ***********/
     .activites {
-        width: 97%;
+        width: auto;
         display: flex;
         flex-direction: column;
     }
@@ -588,14 +588,14 @@ footer {
         display: flex;
         flex-direction: row;
         align-items: center;
-        width: 52rem;
+        width: 54rem;
         /*864px;*/
         gap: 1.65rem;
         /*20px;*/
     }
     
     .activites-cards .card {
-        width: 12.45rem;
+        width: 12.15rem;
         /*173.5px;*/
         border-radius: 1.25rem;
         padding: 0rem;
@@ -604,7 +604,7 @@ footer {
     }
 
     .activites-cards .card img {
-        width: 12.45rem;
+        width: 12.15rem;
         /*173.5px;*/
         height: 12.5rem;
         /*200px;*/
@@ -626,7 +626,7 @@ footer {
     }    
     /** footer **/
     .footer-content {
-        width: 100%;
+        width: auto; /*width: 100%;*/
         gap: 0.938rem
             /* 15px -- 1.875rem; /*30px;*/
     }
@@ -706,7 +706,7 @@ footer {
 
     .header-search-form .btn-search {
         position: absolute;
-        top: 19.85rem;
+        top: 20.1rem;
         
     }
 
@@ -809,7 +809,7 @@ footer {
     }
 
     .hebergements-cards-block .card {
-        width: 18.8rem;
+        width: 18.4rem;
         padding: 0px, 0px, 0.9rem, 0px;
         border-radius: 1.3rem;
         box-shadow: 0px 0.2rem 0.9rem 0px #0000001A;
@@ -817,7 +817,7 @@ footer {
     }
 
     .hebergements-cards-block .card img {
-        width: 18.8rem;
+        width: 18.4rem;
         height: 7.8rem;
         border-radius: 1.3rem, 1.3rem, 0px, 0px;
         border: 0.3rem;
@@ -832,7 +832,7 @@ footer {
     }
 
     .populaires-cards .card {
-        width: 18.8rem;
+        width: 18rem;
         height: 9.1rem;
         padding: 0px, 0px, 0px, 0px;
         border-radius: 1.3rem;
@@ -840,7 +840,7 @@ footer {
     }
     
     .populaires-cards img {
-        width: 6.979rem; /*111.67px;*/
+        width: 6.97rem; /*111.67px;*/
         height: 9.125rem; /*146px;*/
         border-radius: 1.25rem, 0px, 0px, 1.25rem;
         border: 0.313rem, 0px, 0.313rem, 0.313rem;
@@ -849,7 +849,7 @@ footer {
 
     /** activités */
     .activites {
-        width: 85%;
+        width: auto;
         display: flex;
         flex-direction: column;
         background-color: var(--white-color);
