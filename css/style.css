@@ -220,9 +220,9 @@ header .header-options .btn-option {
 }
 
 .header-menu .header-plus-info img {
-    width: 24px;
-    height: 24px;
-    padding-top: 13px;
+    width: 1.5rem; /*24px;*/
+    height: 1.5rem;
+    padding-top: 0.813rem; /*13px;*/
 }
 
 /******* End header ************/
@@ -548,122 +548,7 @@ footer {
 }
 
 /* Small devices (phones, less than 768px) */
-@media only screen and (min-width: 375px) and (max-width: 768px) {
-    /** header section **/
-    /** header nav en icon **/
-    header {
-        background-color: var(--white-color);
-        color: var(--black-color);
-    }
-
-    .header-nav .menu-nav {
-        justify-content: center;
-        width: 100%;
-    }
-
-    .header-menu {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
-
-    .header-nav {
-        flex-direction: column; /* change l'orientation des éléments en colonne */
-        gap: 0.5rem; /* ajoute un espace entre le logo et le menu */
-    }
-    
-    .menu-nav {
-        flex-direction: column; /* change l'orientation des liens en colonne */
-        gap: 0.25rem; /* réduit l'espace entre les liens */
-    }
-
-    .wraper {
-        width: 100%;
-    }
-    .wraper > * {
-        width: 50%;
-        text-align: center;
-    }
-
-    .menu-nav .btn-hebergement {
-        border-top: 0rem solid #FFFFFF;
-        border-bottom: 0.1rem solid #0065FC;
-        padding-bottom: 0.9rem;
-        color: #0065FC;
-
-    }
-    /** End header nav en icon **/
-    /** search form **/
-    .header-search-form {
-        display: flex;
-        flex-direction: row;
-        font-size: 40px;
-        margin-bottom: 20px;
-        width: 335px;
-        height: 49px;
-    }
-    
-    .header-search-form .btn-search .btn-loup {
-        display: unset;
-        visibility: visible; 
-    }
-
-    .header-search-form .btn-search .txt-search {
-        display: none;
-        visibility: hidden;
-    }
-    /** End search form **/
-
-    /** header btn options **/
-    .header-menu{
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
-
-    .header-options .btn-group {
-        display: grid;
-        grid-template-columns: repeat(2, 1fr); /* Créer deux colonnes de largeur égale */
-        grid-template-rows: repeat(2, auto); /* Créer deux lignes de hauteur adaptée au contenu */
-        grid-auto-flow: column; /* Remplir les cellules du grid par colonne */
-    }
-
-    .header-options .btn-option {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        width: 8.3rem;
-        height: 2rem;
-        border: 0.1rem;
-        gap: 1.9rem;
-        margin-bottom: 0.9rem;
-        margin-right: 0.3rem;
-    }    
-    /** End header btn options **/
-    /** End header section **/
-
-    .hebergements-and-populaires {
-        flex-direction: column-reverse;
-    }
-
-    .hebergements-cards-block { grid-template-columns: repeat(3, 1fr); }
-
-    .populaires-cards {
-        display: block;
-    }
-
-    /** footer **/
-    .footer-content {
-        width: auto; /*width: 100%;*/
-        display: block;
-        gap: 0.938rem
-            /* 15px -- 1.875rem; /*30px;*/
-    }
-    /** End footer **/
-}
-
-/* Tiny devices (phones, less than 375px) */
-@media (max-width: 375px) {
+@media only screen and (min-width: 375px) and (max-width: 768px)  {
     /* main container */
     .main-container {
         width: 100%;
@@ -788,6 +673,11 @@ footer {
         margin-bottom: 50px;
     }
     /** End Header menu description **/
+
+    /** header plus infos **/
+    .header-menu .header-plus-info {
+        justify-content: center;
+    }
 
     .hebergements-and-populaires {
         flex-direction: column-reverse;
