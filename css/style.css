@@ -290,6 +290,7 @@ header .header-options .btn-option {
 
 .hebergements-cards img {
     width: 100%; /* 250.33px / 16px */
+    max-width: 100%;
     height: 7.75rem; /*124px /16px */
     border-top-left-radius:1.25rem; /*20px/16px*/
     border-top-right-radius:1.25rem; /*20px/16px*/
@@ -405,6 +406,7 @@ header .header-options .btn-option {
 
 .activites-cards img {
     width: 16.48rem;
+    max-width: 100%;
     height: 23.75rem; /*380px;*/
     border-radius: 1.25rem, 1.25rem, 0px, 0px;
     line-height: 0.07407407;
@@ -751,6 +753,7 @@ footer {
 
     .activites-cards .card img {
         width: 18.8rem;
+        max-width: 100%;
         height: 8.8rem;
         border-radius: 1.3rem, 1.3rem, 0px, 0px;
     }
