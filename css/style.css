@@ -100,7 +100,7 @@ a {
     outline: none;
 }
   
-  /* Sélectionner tous les éléments <a> avec la classe btn-link lors du clic */
+/* Sélectionner tous les éléments <a> avec la classe btn-link lors du clic */
 .btn-link:active {
     /* Définir le style du lien cliqué */
     border-top: 2px solid #0065FC;
@@ -574,7 +574,7 @@ footer {
 }
 
 /* Small devices (phones, less than 768px) */
-@media only screen and (min-width: 375px) and (max-width: 768px)  {
+@media only screen and (max-width: 768px)  {
     /* main container */
     .main-container {
         width: 100%;
