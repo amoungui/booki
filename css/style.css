@@ -636,14 +636,14 @@ footer {
         flex-direction: row;
         font-size: 2.5rem;
         margin-bottom: 1.25rem;
-        width: 49%;/*20.94rem;*/
+        width: 79%;/*20.94rem;*/
         height: 3.06rem;
     }
     .input-search {
-        width: 84%;/*16.56rem;*/ 
+        width: 79%;/*16.56rem;*/
     }
     .header-search-form .btn-search {
-        width: 26%;/* 3.69rem;*/
+        width: 3.69rem;
         height: Fixed (3.06rem);
         left: 17.88rem;
         padding: 0.94rem, 1rem, 0.94rem, 1rem;
