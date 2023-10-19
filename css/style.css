@@ -93,6 +93,26 @@ a {
     align-items: center; /* centre les liens verticalement */
 }
 
+/* Sélectionner tous les éléments <a> avec la classe btn-link */
+.btn-link {
+    /* Définir la transition et le contour */
+    transition: all 0.3s;
+    outline: none;
+}
+  
+  /* Sélectionner tous les éléments <a> avec la classe btn-link lors du clic */
+.btn-link:active {
+    /* Définir le style du lien cliqué */
+    border-top: 2px solid #0065FC;
+    color: #0065FC;
+}
+
+.btn-link:hover {
+    /* Définir le style du lien cliqué */
+    border-top: 2px solid #0065FC;
+    color: #0065FC;
+}
+
 .menu-nav .wraper {
     display: flex;
     flex-direction: row;
