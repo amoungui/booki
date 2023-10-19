@@ -187,6 +187,12 @@ header .header-options .btn-option {
     gap: 10px;
 }
 
+/* Sélectionner tous les éléments <a> avec la classe btn-option lors du survol */
+.btn-option:hover {
+    /* Définir la couleur de fond comme un dégradé linéaire */
+    background: linear-gradient(0deg, #DEEBFF, #DEEBFF);
+  }
+
 .header-options .filter-option {
     width: 54px;
     height: 21px;
