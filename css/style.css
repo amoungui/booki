@@ -402,6 +402,7 @@ header .header-options .btn-option {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    padding-left: 1%;
 }
 
 .activities-cards{
@@ -774,4 +775,12 @@ footer {
         color: var(--black-color);
         gap: 0.625rem; /*10px;*/
     }       
+}
+
+/** tiny devise **/
+@media (max-width: 375px) {
+    .header-options .btn-group {
+        display: flex;
+        flex-direction: column;
+    }
 }
