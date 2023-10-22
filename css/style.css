@@ -90,25 +90,30 @@ a {
     align-items: center; /* centre les liens verticalement */
 }
 
-/* Sélectionner tous les éléments <a> avec la classe btn-link */
+
+/* Styles par défaut pour les liens */
 .btn-link {
-    /* Définir la transition et le contour */
-    transition: all 0.3s;
-    outline: none;
+    color: black; /* Couleur du texte */
 }
 
-/* Sélectionner tous les éléments <a> avec la classe btn-link lors du clic */
-.btn-link:active {
-    /* Définir le style du lien cliqué */
-    border-top: 2px solid #0065FC;
-    color: #0065FC;
+/* Styles pour le premier lien */
+.btn-hebergement {
+    color: blue; /* Couleur du texte */
+    border-top: 2px solid blue; /* Bordure supérieure */
 }
 
-.btn-link:hover {
-    /* Définir le style du lien cliqué */
-    border-top: 2px solid #0065FC;
-    color: #0065FC;
+/* Styles pour tous les liens lors du survol d'un lien */
+.menu-nav:hover .btn-link {
+    color: var(--black-color); /* Couleur du texte */
+    border-top: 2px solid #fff; /* Bordure supérieure */
 }
+
+/* Styles pour le lien survolé */
+.menu-nav .btn-link:hover {
+    color: blue; /* Couleur du texte */
+    border-top: 2px solid blue; /* Bordure supérieure */
+}
+
 
 .menu-nav .wraper {
     display: flex;
@@ -122,10 +127,6 @@ a {
     padding-top: 0.838rem;
 }
 
-.menu-nav .btn-hebergement {
-    border-top: 2px solid #0065FC;
-    color: #0065FC;
-}
 /** End Nav **/
 
 header .header-menu {
