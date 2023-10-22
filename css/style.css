@@ -727,20 +727,22 @@ footer {
         align-items: center;
     }
 
-    .activities-cards{
+    .activities-cards {
         display: flex;
         flex-direction: column;
+        justify-content: center; /* Centrer horizontalement */
         gap: 20px;
         width: 100%;
-        padding-left: 6%;
     }
-
+    
     .activities-cards .card {
         display: block;
         margin-top: 33px;
-        width: 100%;
-        max-width: 90%; 
+        width: 92%;
+        max-width: 100%; 
         height: 200px;
+        margin-left: 3.5%;
+        align-self: center;
     }
 
     .activities-cards img {
