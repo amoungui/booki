@@ -558,6 +558,13 @@ footer {
         width: 100%;
     }
 
+    .btn-link:hover {
+        /* Définir le style du lien cliqué */
+        border-bottom: 2px solid #0065FC;
+        border-top: 2px solid #fff;
+        color: #0065FC;
+    }
+
     .header-menu {
         display: flex;
         justify-content: center;
