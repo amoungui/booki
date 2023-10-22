@@ -98,8 +98,8 @@ a {
 
 /* Styles pour le premier lien */
 .btn-hebergement {
-    color: blue; /* Couleur du texte */
-    border-top: 2px solid blue; /* Bordure supérieure */
+    color: var(--main-color); /* Couleur du texte */
+    border-top: 2px solid var(--main-color); /* Bordure supérieure */
 }
 
 /* Styles pour tous les liens lors du survol d'un lien */
@@ -110,10 +110,21 @@ a {
 
 /* Styles pour le lien survolé */
 .menu-nav .btn-link:hover {
-    color: blue; /* Couleur du texte */
-    border-top: 2px solid blue; /* Bordure supérieure */
+    color: var(--main-color); /* Couleur du texte */
+    border-top: 2px solid var(--main-color); /* Bordure supérieure */
 }
 
+/* Styles pour le deuxième lien lorsqu'il est cliqué */
+.btn-activite:active {
+    color: var(--main-color); /* Couleur du texte */
+    border-top: 2px solid var(--main-color); /* Bordure supérieure */
+}
+
+/* Désactivation des styles du premier lien lorsqu'on clique sur le deuxième lien */
+.btn-activite:active ~ .btn-hebergement {
+    color: black; /* Couleur du texte */
+    border-top: 2px solid white; /* Bordure supérieure */
+}
 
 .menu-nav .wraper {
     display: flex;
