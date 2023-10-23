@@ -577,11 +577,47 @@ footer {
         width: 100%;
     }
 
-    .btn-link:hover {
-        /* Définir le style du lien cliqué */
+    .menu-nav .btn-hebergement {
+        border-top: 0rem solid #FFFFFF;
+        border-bottom: 0.1rem solid var(--main-color);
+        padding-bottom: 0.9rem;
+        color: var(--main-color);
+
+    }
+
+    /* Définir le style du lien cliqué */
+    /*.btn-link:hover {
         border-bottom: 2px solid #0065FC;
         border-top: 2px solid #fff;
         color: #0065FC;
+    }*/
+
+
+    /* Styles par défaut pour les liens */
+    .menu-nav .btn-link {
+        color: black; /* Couleur du texte */
+        /*border-top: 2px solid black; /* Bordure supérieure */
+        border-top: 2px solid var(--white-color);
+    }
+
+    /* Styles pour le premier lien */
+    .menu-nav .btn-hebergement {
+        color: var(--main-color); /* Couleur du texte */
+        /*border-bottom: 2px solid blue; /* Bordure supérieure */
+        border-top: 2px solid var(--white-color);
+    }
+
+    /* Styles pour le deuxième lien lorsqu'il est cliqué */
+    .menu-nav .btn-activite:active {
+        color: var(--main-color); /* Couleur du texte */
+        border-bottom: 2px solid var(--main-color); /* Bordure supérieure */
+    }
+
+    /* Désactivation des styles du premier lien lorsqu'on clique sur le deuxième lien */
+    .menu-nav .btn-activite:active ~ .btn-hebergement {
+        color: black; /* Couleur du texte */
+        border-bottom: 2px solid var(--white-color); /* Bordure supérieure */
+        border-top: 1px solid var(--white-color);
     }
 
     .header-menu {
@@ -613,13 +649,6 @@ footer {
         text-align: center;
     }
 
-    .menu-nav .btn-hebergement {
-        border-top: 0rem solid #FFFFFF;
-        border-bottom: 0.1rem solid #0065FC;
-        padding-bottom: 0.9rem;
-        color: #0065FC;
-
-    }
     /** search form **/
     .header-search-form {
         display: flex;
