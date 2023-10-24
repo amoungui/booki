@@ -105,7 +105,7 @@ a {
 /* Styles pour tous les liens lors du survol d'un lien */
 .menu-nav:hover .btn-link {
     color: var(--black-color); /* Couleur du texte */
-    border-top: 2px solid #fff; /* Bordure supérieure */
+    border-top: 2px solid var(--white-color); /* Bordure supérieure */
 }
 
 /* Styles pour le lien survolé */
@@ -123,7 +123,7 @@ a {
 /* Désactivation des styles du premier lien lorsqu'on clique sur le deuxième lien */
 .btn-activite:active ~ .btn-hebergement {
     color: black; /* Couleur du texte */
-    border-top: 2px solid white; /* Bordure supérieure */
+    border-top: 2px solid var(--white-color); /* Bordure supérieure */
 }
 
 .menu-nav .wraper {
@@ -599,13 +599,24 @@ footer {
         border-top: 2px solid #fff;
         color: #0065FC;
     }*/
+    /* Désactivation des styles du premier lien lorsqu'on clique sur le deuxième lien */
+    .menu-nav .btn-activite:hover ~ .btn-hebergement {
+        color: black; /* Couleur du texte */
+        border-top: 2px solid var(--white-color); /* Bordure supérieure */
+        border-bottom: 1px solid var(--white-color);
+    }
 
-
+    .menu-nav .btn-hebergement:hover {
+        color: var(--main-color); /* Couleur du texte */
+        border-bottom: 2px solid var(--main-color); /* Bordure supérieure */
+        border-top: 2px solid var(--white-color);
+    }
     /* Styles par défaut pour les liens */
     .menu-nav .btn-link {
         color: black; /* Couleur du texte */
         /*border-top: 2px solid black; /* Bordure supérieure */
         border-top: 2px solid var(--white-color);
+        /*border-bottom: 2px solid var(--white-color);*/
     }
 
     /* Styles pour le premier lien */
@@ -616,16 +627,23 @@ footer {
     }
 
     /* Styles pour le deuxième lien lorsqu'il est cliqué */
+    .menu-nav .btn-activite:hover {
+        color: var(--main-color); /* Couleur du texte */
+        border-bottom: 2px solid var(--main-color); /* Bordure supérieure */
+        border-top: 2px solid var(--white-color);
+    }
+
+    /* Styles pour le deuxième lien lorsqu'il est cliqué */
     .menu-nav .btn-activite:active {
         color: var(--main-color); /* Couleur du texte */
         border-bottom: 2px solid var(--main-color); /* Bordure supérieure */
+        border-top: 2px solid var(--white-color);
     }
 
     /* Désactivation des styles du premier lien lorsqu'on clique sur le deuxième lien */
-    .menu-nav .btn-activite:active ~ .btn-hebergement {
+    .menu-nav .btn-activite:active ~ .menu-nav .btn-hebergement {
         color: black; /* Couleur du texte */
-        border-bottom: 2px solid var(--white-color); /* Bordure supérieure */
-        border-top: 1px solid var(--white-color);
+        border: 2px solid var(--white-color);
     }
 
     .header-menu {
