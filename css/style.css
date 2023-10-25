@@ -323,8 +323,9 @@ header .header-options .btn-option {
 }
 
 .hebergements-cards img {
-    width: 94%;
+    width: 95.5%;
     height: 124px;
+    margin: auto;
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
     max-width: 250.33px;
@@ -531,6 +532,18 @@ footer {
     }
 
     .hebergements {
+        width: 100%;
+    }
+
+    .hebergements-cards .card {
+        width: 95%;
+    }
+    
+    .hebergements-cards img {
+        width: 95.5%;
+    }
+    
+    .hebergements-cards .card-content {
         width: 100%;
     }
 
@@ -802,8 +815,8 @@ footer {
     }
 
     .hebergements .card img{
-        width: 97%;
-        max-width: 97%;
+        width: 98%;
+        max-width: 100%;
     }
 
     /*** activities ***/
