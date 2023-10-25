@@ -147,6 +147,16 @@ header .header-menu {
     gap: 10px;
 }
 
+.btn-loup{
+    color: #f0f2f4;
+}
+
+.logo {
+    width: 61.09px; 
+    height: 19px; 
+    margin-top: 20px;
+}
+
 .header-options {
     display: flex;
     flex-direction: row;
