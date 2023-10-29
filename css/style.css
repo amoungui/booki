@@ -791,7 +791,7 @@ footer {
     }
 
     .hebergements .card img{
-        width: 98%;
+        width: 97%;
         max-width: 100%;
     }
 
@@ -866,7 +866,7 @@ footer {
 }
 
 /** tiny devise **/
-@media (max-width: 374px) {
+@media (max-width: 372px) {
     .header-options .btn-group {
         display: flex;
         flex-direction: column;
